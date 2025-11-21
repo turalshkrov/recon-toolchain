@@ -1,0 +1,12 @@
+# Core dependencies (only needed for LLM bonus feature)
+openai>=1.30.0
+google-generativeai>=0.5.0
+
+# Optional: richer console output (colors already built-in with basic ANSI)
+# rich>=13.0.0
+
+# Note: The recon tools themselves (subfinder, dnsx, naabu, httpx, katana)
+# are NOT Python packages → install them separately with:
+#   go install github.com/projectdiscovery/pdtm/cmd/pdtm@latest && pdtm -ia
+#   OR
+#   curl -sSfL https://install.projectdiscovery.io | bash
